@@ -3,14 +3,14 @@ For more information about this sample see: https://support.brightcove.com/brigh
 
 <p>The purpose and structure of files in this repo are:</p>
 
-<table class="bcls-table">
-  <thead class="bcls-table__head">
+<table>
+  <thead>
     <tr>
       <th>Folder/Filename</th>
       <th>Description</th>
     </tr>
   </thead>
-  <tbody class="bcls-table__body">
+  <tbody>
     <tr>
       <td>index.html</td>
       <td>All the application code, HTML, CSS and JavaScript, in a single file.</td>
