@@ -34,6 +34,7 @@
   <ol class="vjs-playlist"></ol>
 
   <script type="text/javascript">
+    // +++ Check for loadedmetadata before acting on the playlist +++
     videojs('myPlayerID').one('loadedmetadata', function(){
       var myPlayer = this,
       // Assign video to be played at end of playlist
