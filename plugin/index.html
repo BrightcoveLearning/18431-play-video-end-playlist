@@ -9,7 +9,7 @@
 
 <body>
 
-  <video id="myPlayerID"
+  <video-js id="myPlayerID"
     data-playlist-id="5541484620001"
     data-account="1752604059001"
     data-player="SJ5OoOgOb"
@@ -18,15 +18,15 @@
     class="video-js"
     controls
     width="400"
-    height="225"></video>
-  <script src="//players.brightcove.net/1752604059001/SJ5OoOgOb_default/index.min.js"></script>
+    height="225"></video-js>
+  <script src="https://players.brightcove.net/1752604059001/SJ5OoOgOb_default/index.min.js"></script>
 
   <ol class="vjs-playlist"></ol>
 
   <script src="videoAfterPlaylist.js"></script>
 
   <script type="text/javascript">
-    videojs('myPlayerID').ready(function(){
+    videojs.getPlayer('myPlayerID').ready(function(){
       var myPlayer = this;
       myPlayer.videoAfterPlaylist();
     });
